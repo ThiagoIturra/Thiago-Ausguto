@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto:wght@400;700&family=Silkscreen&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;400&family=Roboto:wght@400;700&family=Silkscreen&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;400&family=Roboto:wght@400;700&family=Silkscreen&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Playpen+Sans:wght@100;200;400&family=Roboto:wght@400;700&family=Silkscreen&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@600&family=Playpen+Sans:wght@100;200;400&family=Roboto:wght@400;700&family=Silkscreen&family=Tilt+Neon&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/girassol.png" type="image" alt="Ícone de girasol" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Thiago Augusto</title>
+</head>
+<body>
+    <header class="container-nav">
+        <div class="nav-left">
+            <svg class="icon-relative" xmlns="http://www.w3.org/2000/svg" width="34" height="48" viewBox="0 0 42 56" fill="none">
+                <path d="M11 44H31V48H11V44ZM15 52H27V56H15V52ZM21 0C15.6956 0 10.6086 2.10714 6.85784 5.85786C3.10711 9.60859 0.99997 14.6957 0.99997 20C0.864719 22.9067 1.42152 25.8039 2.62456 28.4534C3.8276 31.1029 5.64251 33.4289 7.91997 35.24C9.91997 37.1 11 38.16 11 40H15C15 36.32 12.78 34.26 10.62 32.28C8.75069 30.8485 7.26091 28.9806 6.28113 26.8397C5.30135 24.6988 4.86145 22.3503 4.99997 20C4.99997 15.7565 6.68568 11.6869 9.68626 8.68629C12.6868 5.68571 16.7565 4 21 4C25.2434 4 29.3131 5.68571 32.3137 8.68629C35.3143 11.6869 37 15.7565 37 20C37.1362 22.3521 36.6932 24.7017 35.7099 26.8427C34.7266 28.9837 33.2329 30.8507 31.36 32.28C29.22 34.28 27 36.28 27 40H31C31 38.16 32.06 37.1 34.08 35.22C36.3559 33.412 38.1699 31.0894 39.373 28.4434C40.576 25.7974 41.1336 22.9036 41 20C41 17.3736 40.4827 14.7728 39.4776 12.3463C38.4725 9.91982 36.9993 7.71504 35.1421 5.85786C33.2849 4.00069 31.0802 2.5275 28.6536 1.52241C26.2271 0.517315 23.6264 0 21 0Z" fill="#4ECB71"/>
+            </svg>
+            <svg class="icon-absolute" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 28 28" fill="none">
+                <path d="M27.125 14L21 20.125L19.7663 18.8913L24.6488 14L19.7663 9.10875L21 7.875L27.125 14ZM0.875 14L7 7.875L8.23375 9.10875L3.35125 14L8.23375 18.8913L7 20.125L0.875 14ZM10.8675 22.2985L15.435 5.25L17.1255 5.70238L12.558 22.75L10.8675 22.2985Z" fill="#9747FF"/>
+            </svg>
+            <h1 class="nav-title">Software Engineer</h1>
+        </div>
+        <div class="nav-right">
+            <a href="#project" class="sections">Projetos</a>
+            <a href="#project" class="sections">Conhecimentos</a>
+            <a href="#about-me" class="sections">Sobre mim</a>
+            <a href="#books" class="sections">Livros</a>
+            <a href="#contact-me" class="sections">Contato</a>
+            <a href="#gratitude" class="sections">Agradecimento</a>
+        </div>
+    </header>
+
+    <section class="me">
+        </div>
+        <h1 class="my-name"></h1>
+        <p class="title-background-me">
+            Bem-vindo ao meu jardim, onde sementes são plantadas com <span class="word-span">Amor</span>
+            para florescer em majestosas árvores.
+        </p>
+        <div class="social-medias-container">
+            <a href="https://www.linkedin.com/in/thiago-augusto-dev/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 64 64" fill="none">
+                <path d="M50.6667 8C52.0812 8 53.4377 8.5619 54.4379 9.5621C55.4381 10.5623 56 11.9188 56 13.3333V50.6667C56 52.0812 55.4381 53.4377 54.4379 54.4379C53.4377 55.4381 52.0812 56 50.6667 56H13.3333C11.9188 56 10.5623 55.4381 9.5621 54.4379C8.5619 53.4377 8 52.0812 8 50.6667V13.3333C8 11.9188 8.5619 10.5623 9.5621 9.5621C10.5623 8.5619 11.9188 8 13.3333 8H50.6667ZM49.3333 49.3333V35.2C49.3333 32.8944 48.4174 30.6832 46.7871 29.0529C45.1568 27.4226 42.9456 26.5067 40.64 26.5067C38.3733 26.5067 35.7333 27.8933 34.4533 29.9733V27.0133H27.0133V49.3333H34.4533V36.1867C34.4533 34.1333 36.1067 32.4533 38.16 32.4533C39.1501 32.4533 40.0997 32.8467 40.7999 33.5468C41.5 34.2469 41.8933 35.1965 41.8933 36.1867V49.3333H49.3333ZM18.3467 22.8267C19.5348 22.8267 20.6743 22.3547 21.5145 21.5145C22.3547 20.6743 22.8267 19.5348 22.8267 18.3467C22.8267 15.8667 20.8267 13.84 18.3467 13.84C17.1514 13.84 16.0051 14.3148 15.16 15.16C14.3148 16.0051 13.84 17.1514 13.84 18.3467C13.84 20.8267 15.8667 22.8267 18.3467 22.8267ZM22.0533 49.3333V27.0133H14.6667V49.3333H22.0533Z" fill="black"/>
+                </svg>
+            </a>
+            <a href="https://github.com/ThiagoIturra" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 64 64" fill="none">
+                    <path d="M32 5.33325C28.4981 5.33325 25.0304 6.02301 21.7951 7.36313C18.5597 8.70326 15.62 10.6675 13.1438 13.1437C8.14283 18.1447 5.33331 24.9275 5.33331 31.9999C5.33331 43.7866 12.9866 53.7866 23.5733 57.3333C24.9066 57.5466 25.3333 56.7199 25.3333 55.9999V51.4933C17.9466 53.0933 16.3733 47.9199 16.3733 47.9199C15.1466 44.8266 13.4133 43.9999 13.4133 43.9999C10.9866 42.3466 13.6 42.3999 13.6 42.3999C16.2666 42.5866 17.68 45.1466 17.68 45.1466C20 49.1999 23.92 47.9999 25.44 47.3599C25.68 45.6266 26.3733 44.4533 27.12 43.7866C21.2 43.1199 14.9866 40.8266 14.9866 30.6666C14.9866 27.7066 16 25.3333 17.7333 23.4399C17.4666 22.7733 16.5333 19.9999 18 16.3999C18 16.3999 20.24 15.6799 25.3333 19.1199C27.44 18.5333 29.7333 18.2399 32 18.2399C34.2666 18.2399 36.56 18.5333 38.6666 19.1199C43.76 15.6799 46 16.3999 46 16.3999C47.4666 19.9999 46.5333 22.7733 46.2666 23.4399C48 25.3333 49.0133 27.7066 49.0133 30.6666C49.0133 40.8533 42.7733 43.0933 36.8266 43.7599C37.7866 44.5866 38.6666 46.2133 38.6666 48.6933V55.9999C38.6666 56.7199 39.0933 57.5733 40.4533 57.3333C51.04 53.7599 58.6666 43.7866 58.6666 31.9999C58.6666 28.498 57.9769 25.0304 56.6368 21.795C55.2966 18.5597 53.3324 15.62 50.8562 13.1437C48.3799 10.6675 45.4402 8.70326 42.2049 7.36313C38.9695 6.02301 35.5019 5.33325 32 5.33325Z" fill="black"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="title-container">
+            <h1 class="project-title">Projetos Recentes</h1>
+        </div>
+        <div class="project-container reveal-1">
+            <div class="project-left">
+                <div class="project-title-container">
+                    <h1 class="project-title-item">Shangai Station</h1>
+                </div>
+                <p class="project-description">Projeto criado com o propósito de praticar validação de Formulário e Login em JavaScript. Este projeto foi modelado como se estivéssemos em uma estação de metrô em Shangai.</p>
+                <div class="project-title-container">
+                    <a href="https://github.com/ThiagoIturra/form-validate" target="_blank" class="project-link">Ver Projeto No Git Hub</a>
+                </div>
+            </div>
+            <div class="project-img">
+                <div class="shangai-station"></div>
+                <div class="languages">
+                    <h1>Linguagens utilizadas:<br> JavaScript / HTML / CSS</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div class="project-container reveal">
+            <div class="project-left">
+                <div class="project-title-container">
+                    <h1 class="project-title-item">SakuraAutoTech</h1>
+                </div>
+                <p class="project-description">Este App foi desenvolvido para aplicar meu conhecimento. Implementou-se o uso de mocks, filtragem, mapeamento e limitação de palavras por meio do JavaScript, demonstrando um domínio técnico sólido.</p>
+                <div class="project-title-container">
+                    <a href="https://github.com/ThiagoIturra/sakuraAutoTech" target="_blank" class="project-link">Ver Projeto No Git Hub</a>
+                </div>
+            </div>
+            <div class="project-img">
+                <div class="sakuraAutoTech"></div>
+                <div class="languages">
+                    <h1>Linguagens utilizadas:<br> JavaScript / HTML / CSS</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="project" class="colorGreen">
+        <div class="project-container reveal-1 two">
+            <div class="project-left">
+                <div class="project-title-container">
+                    <h1 class="project-title-item">Lista de Tarefas</h1>
+                </div>
+                <p class="project-description">Elaborei este projeto com o propósito de praticar conceitos fundamentais, como estruturas de controle (for, if, else), armazenamento (localStorage) e manipulação de dados no formato (Json.parse).</p>
+                <div class="project-title-container">
+                    <a href="https://github.com/ThiagoIturra/to-do-list" target="_blank" class="project-link">Ver Projeto No Git Hub</a>
+                </div>
+            </div>
+            <div class="project-img">
+                <div class="to-do-list"></div>
+                <div class="languages">
+                    <h1>Linguagens utilizadas:<br> JavaScript / HTML / CSS</h1>
+                </div>
+            </div>
+        </div>
+    
+        <div class="project-container reveal">
+            <div class="project-left">
+                <div class="project-title-container">
+                    <h1 class="project-title-item">weather forecast</h1>
+                </div>
+                <p class="project-description">Projeto para prática de consumo de APIs. Utiliza uma chave de API para acessar dados climáticos da cidade inserida pelo usuário. Exibe informações ao inserir o nome da cidade.</p>
+                <div class="project-title-container">
+                    <a href="https://github.com/ThiagoIturra/weather-forecast" target="_blank" class="project-link">Ver Projeto No Git Hub</a>
+                </div>
+            </div>
+            <div class="project-img">
+                <div class="weatherForecast"></div>
+                <div class="languages">
+                    <h1>Linguagens utilizadas:<br> JavaScript / HTML / CSS</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <section id="about-me" class="about-me">
+        <div class="about-me-left reveal">
+            <h1 class="title-about-me">Um Pouco Sobre Mim...</h1>
+            <div class="text-container">
+                <p class="text-about-me">
+                    Um apaixonado por Programação e desenvolvimento de software. Minha jornada é marcada Por <span class="word-span">Determinação</span> e uma busca constante por soluções. Acredito que, se houver um problema sem resposta, estou determinado a encontrá-la. Ser um desenvolvedor é mais do que uma profissão, é minha <span class="word-span">Paixão</span> e minha constante busca por desafios e <span class="word-span">aprimoramento.</span>
+                </p>
+                <p class="text-about-me">
+                    Amo andar de skate, criar músicas e explorar livros de programação. Cada um desses 'hobbies' desencadeia minha <span class="word-span">Criatividade</span> e me desafia a crescer. O skate me ensina a superar medos, a música me permite compartilhar minha alma e a programação me impulsiona a aprender e <span class="word-span">Evoluir</span> constantemente.
+                </p>
+            </div>
+            <a class="contact-me-button" href="https://www.linkedin.com/in/thiago-augusto-dev/" target="_blank">Contate-Me</a>
+        </div>
+        <div class="about-me-right">
+           <img class="treeCircle" src="./assets/img/—Pngtree—aesthetic background line art_7553838.png" alt="Imagem de uma arvore">
+           <img class="tree" src="./assets/img/vecteezy_minimal-aesthetic-monstera-plant-leaf_15275715_526.png" alt="Imagem de uma arvore">
+        </div>
+    </section>
+
+    <section id="books" class="books">
+            <h1 class="title-books">Leituras Recentes</h1>
+            <div class="books-container">
+                <div class="books-item reveal-1">
+                    <img class="book-img" src="./assets/img/Captura de tela 2023-10-26 191333.png" alt="Capa do livro 'JavaScript o guia definitivo'">
+                </div>
+                <div class="books-item reveal">
+                    <img class="book-img" src="./assets/img/Captura de tela 2023-10-26 191143.png"
+                    alt="capa do livro 'Estrutura de dados e algoritimos com JavaScript'">
+                </div>
+                <div class="books-item reveal-2">
+                    <img class="book-img" src="./assets/img/Captura de tela 2023-10-26 190850.png"
+                    alt="capa do livro 'Codigo limpo'">
+                </div>
+                <div class="books-item reveal-3">
+                    <img class="book-img" src="./assets/img/Captura de tela 2023-10-26 191757.png"
+                    alt="capa do livro 'Cangaceiro JavaScript'">
+                </div>
+            </div>
+    </section>
+
+    <section id="contact-me">
+        <p class="text-contact-me">
+            Vamos trabalhar juntos e criar <span class="word-span reveal-1">Soluções</span> que sejam <span class="word-span reveal"> Sofisticadas</span> e altamente <span class="word-span reveal-2">Eficazes</span>.
+        </p>
+        <div>
+            <a class="contact-me-button" href="https://www.linkedin.com/in/thiago-augusto-dev/" target="_blank">
+                Contate-Me
+            </a> 
+        </div>
+        <img src="./assets/img/—Pngtree—aesthetic flower logo with outline_6841532.png" alt="Imagem de uma arvore abstrata">
+    </section>
+
+    <section id="gratitude">
+        <h1 class="gratitude-title">
+            Algumas Palavras De Agradecimento :)
+        </h1>
+        <p class="gratitude-text"><span class="word-span">Agradecer</span> é uma demonstração de <span class="word-span">Apreço</span> e <span class="word-span">Reconhecimento</span> pelos atos de <span class="word-span">Bondade</span>, <span class="word-span">Apoio</span>, <span class="word-span">Ensinamentos</span> ou outras <span class="word-span">Contribuições</span> que recebemos de outras pessoas.</p>
+        <div class="gratitude-container">
+            <div class="gratitude-left">
+                <p>Quero expressar minha sincera <span class="word-span">Gratidão</span> a minha irmã Amanda Caraça,  meu primo Alberto Pinehiro e meu amigo Lucas Souza por terem me proporcionado ensinamentos valiosos, por acreditarem em mim e por me mostrarem novos caminhos. Suas contribuições e <span class="word-span">Apoio</span> têm sido inestimáveis, moldando meu percurso de maneiras profundas. Agradeço por serem fontes de <span class="word-span">Inspiração</span> e <span class="word-span">Orientação</span> em minha jornada.</p>
+            </div>
+            <div class="gratitude-right">
+                <p>A gratidão nos convida a olhar para o lado positivo da <span class="word-span">Vida</span>. Quando expressamos gratidão, direcionamos nossa <span class="word-span">Atenção</span> para as coisas boas, mesmo em meio a desafios. Isso, por sua vez, nos ajuda a <span class="word-span">Cultivar</span> uma atitude otimista.
+                gratidão muitas vezes nos inspira a retribuir a <span class="word-span">Gentileza</span>, criando um ciclo de <span class="word-span">Generosidade</span> e <span class="word-span">Bondade</span>. Ela nos encoraja a ser altruísta e a fazer o bem aos outros.
+                A prática da gratidão também estimula o <span class="word-span">Crescimento</span> pessoal. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <script src="./js/scrollEffect.js"></script>
+    <script src="./js/typingEffect.js"></script>
+    <script src="./js/wordCloud.js"></script>
+</body>
+</html>

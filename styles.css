@@ -1,0 +1,47 @@
+@import url("./reset.css");
+@import url("./css/header.css");
+@import url("./css/me.css");
+@import url("./css/project.css");
+@import url("./css/aboutMe.css");
+@import url("./css/books.css");
+@import url("./css/gratitude.css");
+@import url("./css/wordCloud.css");
+@import url("./css/contactMe.css");
+
+:root {
+    --color-primary:  rgba(207, 246, 207, 1);
+    --color-secondary:  rgb(239, 252, 239);
+    --color-background-cream: #f5efe8;
+    --color-nav-text: #000;
+    --color-text-background: #c1bafd;
+    --color-my-name-text: #5b5b5b;
+    --color-text-secondary: #403930;
+    --color-border: #4D5566;
+    --color-contact-me: #b38864;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    font-family: 'Playpen Sans', cursive;
+    scroll-behavior: smooth;
+  }
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    color: var(--color-contact-me);
+}
+  
+  

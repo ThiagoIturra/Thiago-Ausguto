@@ -1,0 +1,64 @@
+body {
+    position: relative;
+}
+
+header {
+    width: 90%;
+    display: flex;
+    z-index: 1000;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Playpen Sans', cursive;
+    font-size: 2rem;
+}
+.nav-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    gap: 1rem;
+}
+
+.icon-relative {
+    position: relative;
+    align-items: center;
+}
+
+.icon-absolute {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.46rem;
+}
+
+.nav-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--color-my-name-text);
+}
+
+.nav-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sections {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-my-name-text);
+}
+
+@media (max-width: 1535px) {
+    .nav-left {
+        width: 40%;
+    }
+    .nav-right {
+        width: 60%;
+    }
+  }

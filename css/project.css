@@ -1,0 +1,193 @@
+#project {
+    background-color: var(--color-background-cream);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title-container {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.project-title {
+    display: flex;
+    color: var(--color-text-secondary);
+    font-family: Eczar;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 0.05rem;
+}
+
+.project-container {
+    display: flex;
+    width: 75%;
+    height: 40vh;
+    border-radius: 1.5rem;
+    background: #FFF8F2;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.115);
+    margin: 1rem;
+}
+
+.colorGreen {
+    background-color: var(--color-secondary)!important;
+}
+
+.two {
+    margin-top: 5%;
+}
+
+.project-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-title-container {
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+.project-title-item {
+    color: var(--color-text-secondary);
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.project-description {
+    margin-top: 1rem;
+    width: 70%;
+    color: #594F43;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.project-link {
+    margin-top: 1rem;
+    color: #4E5E80;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.project-img {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.shangai-station {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/Shangai-station.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0rem 1.5rem 1.5rem 0;
+    overflow: hidden;
+}
+
+.project-img:hover .shangai-station {
+    filter: blur(1rem);
+    filter: brightness(0.5);
+}
+
+.sakuraAutoTech {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/SakuraAutoTech.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0rem 1.5rem 1.5rem 0;
+    overflow: hidden;
+}
+
+.project-img:hover .sakuraAutoTech {
+    filter: blur(1rem);
+    filter: brightness(0.5);
+}
+
+.to-do-list{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/To-do-list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0rem 1.5rem 1.5rem 0;
+    overflow: hidden;
+}
+
+.project-img:hover .to-do-list {
+    filter: blur(1rem);
+    filter: brightness(0.5);
+}
+
+.weatherForecast{
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/weatherForecast.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0rem 1.5rem 1.5rem 0;
+    overflow: hidden;
+}
+
+.project-img:hover .weatherForecast {
+    filter: blur(1rem);
+    filter: brightness(0.5);
+}
+
+
+.languages {
+    width: 100%;
+    top: 35%;
+    text-align: center;
+    color: var(--color-text-background);
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    text-align: center;
+    line-height: 150%;
+}
+
+.project-img:hover .languages {
+    opacity: 1;
+}
+
+@media (max-width: 1535px) {
+    .project-title-item {
+        font-size: 1.5rem;
+    }
+    .project-description {
+        font-size: 1rem;
+    }
+    .project-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        height: 25vh; /* Ajuste a altura para caber 4 na página em telas menores */
+    }
+}
