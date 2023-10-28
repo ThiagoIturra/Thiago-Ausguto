@@ -4,9 +4,10 @@
 @import url("./css/project.css");
 @import url("./css/aboutMe.css");
 @import url("./css/books.css");
-@import url("./css/gratitude.css");
-@import url("./css/wordCloud.css");
+@import url("./css/ability.css");
+@import url("./css/knowledge.css");
 @import url("./css/contactMe.css");
+@import url("./css/gratitude.css");
 
 :root {
     --color-primary:  rgba(207, 246, 207, 1);
