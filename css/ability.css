@@ -70,16 +70,16 @@
 }
 
 @media (max-width: 1535px) {
+    .ability-title {
+        height: 15%;
+    }
     .aibility-title-item {
         font-size: 1.3rem;
     }
+    .aibility-title-item ul{
+        gap: 0.5rem;
+    }
     .ability-description-item {
-        border-radius: 1rem;
-        color: var(--color-my-name-text);
-        font-family: Work Sans;
         font-size: 1rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 150%;
     }
   }

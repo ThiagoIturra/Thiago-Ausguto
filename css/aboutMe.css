@@ -3,6 +3,7 @@
     display: flex;
     background-color: var(--color-secondary);
     position: relative;
+    box-sizing: border-box;
 }
 
 .about-me-left {
@@ -109,5 +110,37 @@
     }
     .tree {
         width: 30rem;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .about-me {
+        flex-direction: column;
+    }
+    .about-me-left{
+        width: 90%;
+        height: 90%;
+        padding: 0;
+        justify-content: flex-start;
+        z-index: 1;
+    }
+    .title-about-me {
+        font-size: 1.5rem;
+    }
+    .text-about-me{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+    .about-me-right {
+        width: 10%;
+        z-index: 0;
+    }
+    .treeCircle {
+        width: 20rem;
+        bottom: 10%;
+    }
+    .tree {
+        width: 20rem;
+        bottom: 0%;
     }
   }

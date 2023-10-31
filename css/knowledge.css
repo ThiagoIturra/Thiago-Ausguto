@@ -49,6 +49,9 @@
 
 
 @media (max-width: 1535px) {
+    .knowledge-title {
+        height: 15%;
+    }
     .linguages-img {
         width: 7rem;
         height: 7rem;

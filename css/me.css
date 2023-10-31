@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    box-sizing: border-box;
     background-color: var(--color-secondary);
 }
 
@@ -46,6 +47,19 @@
   .title-background-me {
     width: 85%;
 }
+}
+
+@media (max-width: 900px) {
+  .my-name {
+    font-size: 1.7rem;
+  }
+  .title-background-me {
+    width: 90%;
+  }
+  .social-medias-container {
+    position: absolute;
+    bottom: 10px;
+  }
 }
 
 @keyframes border-blink {

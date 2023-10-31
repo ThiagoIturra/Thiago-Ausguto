@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 .title-container {
@@ -185,8 +186,26 @@
     }
 }
 
-@media (max-width: 768px) {
-    .project-container {
-        height: 25vh; /* Ajuste a altura para caber 4 na página em telas menores */
+@media (max-width: 900px) {
+    .project-left {
+        display: none;
     }
-}
+    .project-img {
+         width: 100%;
+    }
+    .two {
+        margin-top: 20%;
+    }
+    .shangai-station {
+        border-radius: 1.5rem;
+    }
+    .sakuraAutoTech {
+        border-radius: 1.5rem;
+    }
+    .to-do-list {
+        border-radius: 1.5rem;
+    }
+    .weatherForecast {
+        border-radius: 1.5rem;
+    }
+  }
